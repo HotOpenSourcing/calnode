@@ -26,8 +26,6 @@ data-demo/
 *.db-wal
 
 # Environment — allow .env.example as a committed template
-.env
-.env.*
 !.env.example
 
 # Go
@@ -39,7 +37,6 @@ coverage.out
 __debug_bin
 
 # Editor
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -62,3 +59,4 @@ pnpm-debug.log*
 # Vitest browser-mode artifacts (failure screenshots / attachments)
 __screenshots__/
 .vitest-attachments/
+config.bat
