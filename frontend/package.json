@@ -13,9 +13,9 @@
     }
   },
   "scripts": {
-    "dev": "vite dev",
+    "dev": "node init && vite dev",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-    "build": "vite build",
+    "build": "node init && vite build",
     "preview": "vite preview",
     "test:visual": "vitest run"
   },
